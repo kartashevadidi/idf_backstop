@@ -1,0 +1,18 @@
+[
+
+  {
+    "domain": "http://qa-delivery-idfinance-ru-master.moneyman.ru",
+    "expirationDate": 1661770457,
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "currentLang",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": false,
+    "storeId": "1",
+    "value": "en",
+    "id": 12
+  }
+
+]

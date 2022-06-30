@@ -1,0 +1,98 @@
+{
+  "id": "IDF",
+  "viewports": [
+    {
+      "label": "phone-320",
+      "width": 320,
+      "height": 9000
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+
+    {
+      "label": "Subscribe_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
+      "referenceUrl": "https://idfinance.com/about/",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "clickSelectors": [ ".coi-banner__accept","input#checkPrivacy","#stay_connected form button"],
+      "keyPressSelectors": [
+        {
+          "selector": ".input_wrapper input[type='text']",
+          "keyPress": "diana.katest@moneyman.ru"
+        }
+      ],
+
+      "postInteractionWait": 2000,
+      "delay": 7000
+    },{
+      "label": "Subscribe_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
+      "referenceUrl": "https://idfinance.com/about/",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "clickSelectors": [ ".coi-banner__accept","input#checkPrivacy","#stay_connected form button"],
+      "keyPressSelectors": [
+        {
+          "selector": ".input_wrapper input[type='text']",
+          "keyPress": "diana.katest@moneyman.ru"
+        }
+      ],
+
+      "postInteractionWait": 2000,
+      "delay": 7000
+    },
+    {
+      "label": "SubscribeError_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
+      "referenceUrl": "https://idfinance.com/",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "clickSelectors": [ ".coi-banner__accept","#stay_connected form button"],
+      "keyPressSelectors": [
+        {
+          "selector": ".input_wrapper input[type='text']",
+          "keyPress": "diana.katest@moneyman.ru"
+        }
+      ],
+
+      "postInteractionWait": 2000,
+      "delay": 7000
+    },{
+      "label": "SubscribeError_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
+      "referenceUrl": "https://idfinance.com/about/",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "clickSelectors": [ ".coi-banner__accept","#stay_connected form button"],
+      "keyPressSelectors": [
+        {
+          "selector": ".input_wrapper input[type='text']",
+          "keyPress": "diana.katest@moneyman.ru"
+        }
+      ],
+
+      "postInteractionWait": 2000,
+      "delay": 7000
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "cookiePath": "backstop_data/engine_scripts/cookies.json",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": [
+    "browser"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
