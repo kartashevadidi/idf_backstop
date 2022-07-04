@@ -66,34 +66,42 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ]
-    },    {
+    },
+    {
       "label": "Subscribe_EN",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "clickSelectors": [ ".coi-banner__accept","input#checkPrivacy","#stay_connected form button"],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "input#checkPrivacy",
+        "#stay_connected form button"
+      ],
       "keyPressSelectors": [
         {
           "selector": ".input_wrapper input[type='text']",
           "keyPress": "diana.katest@moneyman.ru"
         }
       ],
-
       "postInteractionWait": 2000,
       "delay": 7000
-    },{
+    },
+    {
       "label": "Subscribe_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "clickSelectors": [ ".coi-banner__accept","input#checkPrivacy","#stay_connected form button"],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "input#checkPrivacy",
+        "#stay_connected form button"
+      ],
       "keyPressSelectors": [
         {
           "selector": ".input_wrapper input[type='text']",
           "keyPress": "diana.katest@moneyman.ru"
         }
       ],
-
       "postInteractionWait": 2000,
       "delay": 7000
     },
@@ -102,29 +110,34 @@
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
       "referenceUrl": "https://idfinance.com/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "clickSelectors": [ ".coi-banner__accept","#stay_connected form button"],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "#stay_connected form button"
+      ],
       "keyPressSelectors": [
         {
           "selector": ".input_wrapper input[type='text']",
           "keyPress": "diana.katest@moneyman.ru"
         }
       ],
-
       "postInteractionWait": 2000,
       "delay": 7000
-    },{
+    },
+    {
       "label": "SubscribeError_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "clickSelectors": [ ".coi-banner__accept","#stay_connected form button"],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "#stay_connected form button"
+      ],
       "keyPressSelectors": [
         {
           "selector": ".input_wrapper input[type='text']",
           "keyPress": "diana.katest@moneyman.ru"
         }
       ],
-
       "postInteractionWait": 2000,
       "delay": 7000
     },
@@ -137,12 +150,16 @@
         ".coi-banner__accept"
       ],
       "delay": 7000
-    },{
+    },
+    {
       "label": "QUIENES-Dirección_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/about/",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "clickSelectors": [ ".coi-banner__accept", ".item .svg"],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        ".item .svg"
+      ],
       "postInteractionWait": 2000,
       "delay": 7000
     },
@@ -161,7 +178,10 @@
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/about/",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "clickSelectors": [ ".coi-banner__accept", ".item .svg"],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        ".item .svg"
+      ],
       "postInteractionWait": 2000,
       "delay": 10000
     },
@@ -175,6 +195,17 @@
       "delay": 25000
     },
     {
+      "label": "INVESTORSdocument_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/inversores/",
+      "referenceUrl": "https://idfinance.com/es/inversores/",
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#bond_investors button"
+      ],
+      "postInteractionWait": 2000,
+      "delay": 7000
+    },
+    {
       "label": "INVESTORS_EN",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/investors/",
       "referenceUrl": "https://idfinance.com/investors/",
@@ -182,6 +213,18 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ],
+      "delay": 7000
+    },
+    {
+      "label": "INVESTORSdocument_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/investors/",
+      "referenceUrl": "https://idfinance.com/investors/",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#bond_investors button"
+      ],
+      "postInteractionWait": 2000,
       "delay": 7000
     },
     {
@@ -241,9 +284,8 @@
       ],
       "delay": 7000
     },
-
     {
-      "label": "carreras_ES",
+      "label": "CARRERAS_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/carreras/",
       "referenceUrl": "https://idfinance.com/es/carreras/",
       "clickSelectors": [
@@ -251,6 +293,29 @@
       ],
       "delay": 25000
     },
+    {
+      "label": "CARRERASopen_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/carreras/",
+      "referenceUrl": "https://idfinance.com/es/carreras/",
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#positions button:nth-child(1) > div.title"
+      ],
+      "delay": 7000
+    },
+    {
+      "label": "CARRERARopenError_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/carreras/",
+      "referenceUrl": "https://idfinance.com/es/carreras/",
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#positions button:nth-child(1) > div.title",
+        "div#positions div.tab_line > button:nth-child(2)",
+        "form#position_form > button[type=\"submit\"]"
+      ],
+      "delay": 7000
+    },
+
     {
       "label": "CAREERS_EN",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/careers/",
@@ -261,13 +326,45 @@
       ],
       "delay": 7000
     },
-
+    {
+      "label": "CARRERASopen_EN",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/careers/",
+      "referenceUrl": "https://idfinance.com/careers/",
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#positions button:nth-child(1) > div.title"
+      ],
+      "delay": 7000
+    },
     {
       "label": "NOTICIAS_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/noticias/",
+      "removeSelectors": [
+        ".category_list",
+        ".date",
+        "div#news div > div > div > a > h3",
+        "div#news div.news_list > div > div > a > img"
+      ],
       "referenceUrl": "https://idfinance.com/es/noticias/",
       "clickSelectors": [
         ".coi-banner__accept"
+      ],
+      "delay": 25000
+    },
+    {
+      "label": "NOTICIASLoad_more_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/noticias/",
+      "removeSelectors": [
+        ".category_list",
+        ".date",
+        "div#news div > div > div > a > h3",
+        "div#news div.news_list > div > div > a > img"
+      ],
+      "referenceUrl": "https://idfinance.com/es/noticias/",
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#news button:nth-child(5)",
+        "div#news span.title"
       ],
       "delay": 25000
     },
@@ -276,10 +373,34 @@
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/news/",
       "referenceUrl": "https://idfinance.com/news/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "removeSelectors": [
+        ".category_list",
+        ".date",
+        "div#news div > div > div > a > h3",
+        "div#news div.news_list > div > div > a > img"
+      ],
       "clickSelectors": [
         ".coi-banner__accept"
       ],
       "delay": 7000
+    },
+    {
+      "label": "NOTICIASLoad_more_ES",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/news/",
+      "referenceUrl": "https://idfinance.com/news/",
+      "removeSelectors": [
+        ".category_list",
+        ".date",
+        "div#news div > div > div > a > h3",
+        "div#news div.news_list > div > div > a > img"
+      ],
+      "clickSelectors": [
+        ".coi-banner__accept",
+        "div#news button:nth-child(3)",
+        "div#news span.title"
+      ],
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "delay": 25000
     }
   ],
   "paths": {

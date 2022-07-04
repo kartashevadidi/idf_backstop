@@ -1,0 +1,390 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_0_phone-320.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES-cookies_0_document_0_phone-320.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES-cookies_0_document_0_phone-320.png",
+        "label": "MAIN_ES-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-320",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_0_phone-320.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_1_phone-375.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES-cookies_0_document_1_phone-375.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES-cookies_0_document_1_phone-375.png",
+        "label": "MAIN_ES-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-375",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_1_phone-375.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_2_tablet-768.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES-cookies_0_document_2_tablet-768.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES-cookies_0_document_2_tablet-768.png",
+        "label": "MAIN_ES-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-768",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_2_tablet-768.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_3_tablet-1024.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES-cookies_0_document_3_tablet-1024.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES-cookies_0_document_3_tablet-1024.png",
+        "label": "MAIN_ES-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-1024",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_3_tablet-1024.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_4_desktop-1440.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES-cookies_0_document_4_desktop-1440.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES-cookies_0_document_4_desktop-1440.png",
+        "label": "MAIN_ES-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1440",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_4_desktop-1440.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_5_desktop-1920.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES-cookies_0_document_5_desktop-1920.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES-cookies_0_document_5_desktop-1920.png",
+        "label": "MAIN_ES-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1920",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES-cookies_0_document_5_desktop-1920.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_0_phone-320.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN-cookies_0_document_0_phone-320.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN-cookies_0_document_0_phone-320.png",
+        "label": "MAIN_EN-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-320",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_0_phone-320.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_1_phone-375.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN-cookies_0_document_1_phone-375.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN-cookies_0_document_1_phone-375.png",
+        "label": "MAIN_EN-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-375",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_1_phone-375.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_2_tablet-768.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN-cookies_0_document_2_tablet-768.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN-cookies_0_document_2_tablet-768.png",
+        "label": "MAIN_EN-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-768",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_2_tablet-768.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_3_tablet-1024.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN-cookies_0_document_3_tablet-1024.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN-cookies_0_document_3_tablet-1024.png",
+        "label": "MAIN_EN-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-1024",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_3_tablet-1024.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_4_desktop-1440.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN-cookies_0_document_4_desktop-1440.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN-cookies_0_document_4_desktop-1440.png",
+        "label": "MAIN_EN-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1440",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_4_desktop-1440.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_5_desktop-1920.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN-cookies_0_document_5_desktop-1920.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN-cookies_0_document_5_desktop-1920.png",
+        "label": "MAIN_EN-cookies",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1920",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN-cookies_0_document_5_desktop-1920.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES_0_document_0_phone-320.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES_0_document_0_phone-320.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES_0_document_0_phone-320.png",
+        "label": "MAIN_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-320",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES_0_document_0_phone-320.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES_0_document_1_phone-375.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES_0_document_1_phone-375.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES_0_document_1_phone-375.png",
+        "label": "MAIN_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-375",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES_0_document_1_phone-375.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES_0_document_2_tablet-768.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES_0_document_2_tablet-768.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES_0_document_2_tablet-768.png",
+        "label": "MAIN_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-768",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES_0_document_2_tablet-768.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES_0_document_3_tablet-1024.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES_0_document_3_tablet-1024.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES_0_document_3_tablet-1024.png",
+        "label": "MAIN_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-1024",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES_0_document_3_tablet-1024.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES_0_document_4_desktop-1440.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES_0_document_4_desktop-1440.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES_0_document_4_desktop-1440.png",
+        "label": "MAIN_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1440",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES_0_document_4_desktop-1440.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_ES_0_document_5_desktop-1920.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_ES_0_document_5_desktop-1920.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_ES_0_document_5_desktop-1920.png",
+        "label": "MAIN_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1920",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_ES_0_document_5_desktop-1920.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN_0_document_0_phone-320.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN_0_document_0_phone-320.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN_0_document_0_phone-320.png",
+        "label": "MAIN_EN",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-320",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN_0_document_0_phone-320.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN_0_document_1_phone-375.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN_0_document_1_phone-375.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN_0_document_1_phone-375.png",
+        "label": "MAIN_EN",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "phone-375",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN_0_document_1_phone-375.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN_0_document_2_tablet-768.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN_0_document_2_tablet-768.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN_0_document_2_tablet-768.png",
+        "label": "MAIN_EN",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-768",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN_0_document_2_tablet-768.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN_0_document_3_tablet-1024.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN_0_document_3_tablet-1024.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN_0_document_3_tablet-1024.png",
+        "label": "MAIN_EN",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "tablet-1024",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN_0_document_3_tablet-1024.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN_0_document_4_desktop-1440.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN_0_document_4_desktop-1440.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN_0_document_4_desktop-1440.png",
+        "label": "MAIN_EN",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1440",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN_0_document_4_desktop-1440.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_MAIN_EN_0_document_5_desktop-1920.png",
+        "test": "..\\bitmaps_test\\20220630-164048\\IDF_MAIN_EN_0_document_5_desktop-1920.png",
+        "selector": "document",
+        "fileName": "IDF_MAIN_EN_0_document_5_desktop-1920.png",
+        "label": "MAIN_EN",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/",
+        "referenceUrl": "https://idfinance.com/",
+        "expect": 0,
+        "viewportLabel": "desktop-1920",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_MAIN_EN_0_document_5_desktop-1920.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "IDF"
+}

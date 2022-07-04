@@ -1,0 +1,22 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\IDF_QUIENES-Direccin_ES_0_document_0_phone-320.png",
+        "test": "..\\bitmaps_test\\20220630-201741\\IDF_QUIENES-Direccin_ES_0_document_0_phone-320.png",
+        "selector": "document",
+        "fileName": "IDF_QUIENES-Direccin_ES_0_document_0_phone-320.png",
+        "label": "QUIENES-Dirección_ES",
+        "misMatchThreshold": 0.1,
+        "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
+        "referenceUrl": "https://idfinance.com/about/",
+        "expect": 0,
+        "viewportLabel": "phone-320",
+        "error": "Reference file not found C:\\Users\\diana.kartasheva\\IdeaProjects\\idf_backstope\\backstop_data\\bitmaps_reference\\IDF_QUIENES-Direccin_ES_0_document_0_phone-320.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "IDF"
+}
