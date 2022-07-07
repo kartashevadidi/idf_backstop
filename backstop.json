@@ -70,7 +70,7 @@
     {
       "label": "Subscribe_EN",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
-      "referenceUrl": "https://idfinance.com/about/",
+      "referenceUrl": "https://idfinance.com/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "clickSelectors": [
         ".coi-banner__accept",
@@ -84,12 +84,12 @@
         }
       ],
       "postInteractionWait": 2000,
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "Subscribe_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
-      "referenceUrl": "https://idfinance.com/about/",
+      "referenceUrl": "https://idfinance.com/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "clickSelectors": [
         ".coi-banner__accept",
@@ -103,7 +103,7 @@
         }
       ],
       "postInteractionWait": 2000,
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "SubscribeError_EN",
@@ -121,12 +121,12 @@
         }
       ],
       "postInteractionWait": 2000,
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "SubscribeError_ES",
       "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru",
-      "referenceUrl": "https://idfinance.com/about/",
+      "referenceUrl": "https://idfinance.com/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "clickSelectors": [
         ".coi-banner__accept",
@@ -139,39 +139,40 @@
         }
       ],
       "postInteractionWait": 2000,
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "QUIENES-SOMOS_ES",
-      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/about/",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/quienes-somos/",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 7000
+      "postInteractionWait": 4000,
+      "delay": 25000
     },
     {
       "label": "QUIENES-Dirección_ES",
-      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/about/",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/quienes-somos/",
       "referenceUrl": "https://idfinance.com/about/",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "clickSelectors": [
         ".coi-banner__accept",
         ".item .svg"
       ],
-      "postInteractionWait": 2000,
-      "delay": 7000
+      "postInteractionWait": 4000,
+      "delay": 25000
     },
     {
       "label": "ABOUT_EN",
-      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/es/quienes-somos/",
-      "referenceUrl": "https://idfinance.com/es/quienes-somos/",
+      "url": "http://moneyman:1005@qa-delivery-idfinance-ru-master.moneyman.ru/about",
+      "referenceUrl": "https://idfinance.com/about",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 10000
+      "delay": 25000
     },
     {
       "label": "ABOUT-Leadership_EN",
@@ -183,7 +184,7 @@
         ".item .svg"
       ],
       "postInteractionWait": 2000,
-      "delay": 10000
+      "delay": 25000
     },
     {
       "label": "INVERSORES_ES",
@@ -203,7 +204,7 @@
         "div#bond_investors button"
       ],
       "postInteractionWait": 2000,
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "INVESTORS_EN",
@@ -213,7 +214,7 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "INVESTORSdocument_EN",
@@ -225,7 +226,7 @@
         "div#bond_investors button"
       ],
       "postInteractionWait": 2000,
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "SOSTENIBILIDAD_ES",
@@ -244,7 +245,7 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "TECNOLOGIA_ES",
@@ -263,7 +264,7 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "DATA_ES",
@@ -282,7 +283,7 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "CARRERAS_ES",
@@ -301,7 +302,7 @@
         ".coi-banner__accept",
         "div#positions button:nth-child(1) > div.title"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "CARRERARopenError_ES",
@@ -313,7 +314,7 @@
         "div#positions div.tab_line > button:nth-child(2)",
         "form#position_form > button[type=\"submit\"]"
       ],
-      "delay": 7000
+      "delay": 25000
     },
 
     {
@@ -324,7 +325,7 @@
       "clickSelectors": [
         ".coi-banner__accept"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "CARRERASopen_EN",
@@ -334,7 +335,7 @@
         ".coi-banner__accept",
         "div#positions button:nth-child(1) > div.title"
       ],
-      "delay": 7000
+      "delay": 25000
     },
     {
       "label": "NOTICIAS_ES",
